@@ -94,7 +94,7 @@ void UIAdTypeMenuParent::cache()
 
 void UIAdTypeMenuParent::show()
 {
-    UAppodealComponent::show("default", getAdType());
+    UAppodealComponent::show(getAdType());
 }
 
 void UIAdTypeMenuParent::getPredictedECPM()
